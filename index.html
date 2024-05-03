@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <?!= require('head')?>
+    <!-- components -->
+    <?!= require('FormComponent.js')?>
+    <!-- Screens -->
+    <?!= require('HomeScreen.js')?>
+
+    <!-- App -->
+    <?!= require('App.js')?>
+    <?!= require('index.js')?>    
+    <style>
+      html {
+        overflow-x: hidden;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        font-family: "Segoe UI", Roboto,"Helvetica Neue", "Fira Sans";
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
